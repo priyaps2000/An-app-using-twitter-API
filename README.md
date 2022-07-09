@@ -1,2 +1,25 @@
-# An-app-using-twitter-API
-This is an app that enables the user to modify twitter profile/ save previous profile elements
+# twepr
+A Twitter app for tech content creators.
+
+# Development
+
+Install latest Node LTS [from here](https://nodejs.org/en/download/).
+
+### Update environment variables
+```bash
+cp .env.template .env
+```
+
+PIZZLY_URL - visit [Pizzly](https://github.com/Bearer/Pizzly) to setup your Pizzly server.
+
+### Install the dependencies
+```bash
+npm install
+```
+
+### Run the development server
+```bash
+npm run start
+```
+
+The client should load locally with live-reloading support. Usually it is http://localhost:10001
